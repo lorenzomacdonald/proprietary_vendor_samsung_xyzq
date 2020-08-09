@@ -13,18 +13,18 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - model: "SM-G9810"
+          - model: "SM-A7050"
             region: "CHC"
-          - model: "SM-G9860"
-            region: "CHC"
-          - model: "SM-G9880"
-            region: "CHC"
-          - model: "SM-G981N"
-            region: "KOO"
-          - model: "SM-G986N"
-            region: "KOO"
-          - model: "SM-G988N"
-            region: "KOO"
+          - model: "SM-A705F"
+            region: "CAM"
+          - model: "SM-A705FN"
+            region: "PHN"
+          - model: "SM-A705GM"
+            region: "SLK"
+          - model: "SM-A705MN"
+            region: "IUS"
+          - model: "SM-A705YN"
+            region: "XSA"
 
     steps:
     - name: Checkout repo
